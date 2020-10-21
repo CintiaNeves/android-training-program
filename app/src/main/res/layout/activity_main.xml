@@ -4,11 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#13CFCF"
     tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="392dp"
+        android:layout_width="406dp"
         android:layout_height="728dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,19 +22,23 @@
         android:layout_height="36dp"
         android:text="Hello World, Cinty no android!"
         app:layout_constraintBottom_toTopOf="@+id/imageView2"
-        app:layout_constraintHorizontal_bias="0.563"
+        app:layout_constraintHorizontal_bias="0.191"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.864" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="647dp"
         android:layout_marginBottom="36dp"
+        android:background="#5C5B57"
+        android:fontFamily="sans-serif-black"
         android:text="Click"
+        android:textColor="#2B2B2B"
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
